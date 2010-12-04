@@ -1,0 +1,165 @@
+/*
+	960 Grid System ~ Core CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/*
+	Forces backgrounds to span full width,
+	even if there is horizontal scrolling.
+	Increase this if your layout is wider.
+
+	Note: IE6 works fine without this fix.
+*/
+
+@font-face {
+    font-family: AGBook;
+    src: url(../fonts/avant/a_book.ttf);
+}
+
+@font-face {
+    font-family: AGBookBold;
+    src: url(../fonts/avant/a_demi.ttf);
+}
+
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(../fonts/delicious/Delicious-Roman.otf);
+}
+
+@font-face {
+    font-family: DeliciousBold;
+    src: url(../fonts/delicious/Delicious-Bold.otf);
+}
+
+body {
+
+	min-width: 960px;
+	
+}
+
+#header {
+	
+	margin: 0 auto;
+	height: 200px;
+	background-color: rgb(22,145,67);
+
+}
+
+#login-container {
+	
+	margin: 0 auto;
+	height: 50px;
+	background-color: rgb(255,255,255);
+
+}
+
+#global-nav {
+	
+	float: right;
+
+}
+
+#search-container {
+
+	position: relative;
+	top:40px;
+	float: right;
+	height: 50px;
+
+}
+
+.form {
+
+	display: inline;
+}
+
+.form input.text{
+
+	border: 0px;
+	background: #fff;
+	color: #5f95ef;
+	font-size: 14px;
+	height: 30px;
+	font-weight: normal;
+	color: #565656;
+	border: 0px;
+	width: 250px;
+	text-align: left;
+}
+.form input.text.active{
+	background: rgb(255,245,188);
+}
+
+
+#search-btn{
+	position:relative;
+	padding-left: 10px;
+	top:12px;
+	display: inline;
+
+}
+
+.form-input-box {
+
+	border: 1px solid rgb(140,140,140);
+	display: inline;
+	padding: 10px;
+	background-color: rgb(255,255,255);
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+
+}
+
+.search-active{
+
+	border: 1px solid rgb(0,0,0);
+	background-color: rgb(255,245,188);
+
+}
+
+
+#events {
+
+	margin-top: 20px;
+}
+
+.event-box {
+
+	padding: 10px;
+	background-color: rgb(240,240,240);
+	width: 400px;
+	margin-bottom: 20px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.event-name {
+
+	font-family: DeliciousBold;
+	font-size: 20px;
+	font-weight: normal;
+	color: rgb(144,144,144);
+	margin: 0px;
+
+}
+
+.event-text {
+
+	font-size: 11px;
+	font-weight: normal;
+	color: rgb(144,144,144);
+	margin: 0px;
+	
+
+}
+
+
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }

@@ -1,0 +1,30 @@
+#event-wrapper {
+	width:600px;
+	border:1px solid #e2e2e2;
+	background:#f1f1f1;
+	padding:20px;
+}
+
+#event-wrapper label {
+	display:block;
+	float:none;
+	font-size:12px;
+	width:auto;
+}
+form#eventForm input {
+	border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style:solid;
+	border-width:1px;
+	padding:5px;
+	font-size:16px;
+	color:#333;
+}
+
+
+form#eventForm textarea {
+	font-size:100%;
+	padding:0.6em 0.5em 0.7em;
+	border-color:#B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+	border-style:solid;
+	border-width:1px;
+}
